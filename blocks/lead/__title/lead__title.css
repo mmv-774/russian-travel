@@ -9,17 +9,8 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    width: calc(288px + 432 * (100vw - 321px) / (768 - 321));
-    font-size: calc(40px + 56 * (100vw - 321px) / (768 - 321));
-    margin-bottom: calc(16px + 16 * (100vw - 321px) / (768 - 321));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead__title {
-    width: calc(288 / 320 * 100%);
-    font-size: calc(40 / 320 * 100vw);
-    margin-bottom: calc(16 / 320 * 100vw);
-    line-height: 1.1;
+    max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
+    font-size: calc(40px + (96 - 40) * (100vw - 320px) / (768 - 320));
+    margin-bottom: calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320));
   }
 }

@@ -1,5 +1,5 @@
 .lead {
-  max-width: 984px;
+  width: 984px;
   padding: 56px 0 0;
   display: flex;
   flex-direction: column;
@@ -8,27 +8,26 @@
 
 @media screen and (max-width: 1280px) {
   .lead {
-    width: calc(928px + 56 * (100vw - 1025px) / (1280 - 1025));
-    padding-top: calc(53px + 3 * (100vw - 1025px) / (1280 - 1025));
+    padding-top: calc(53px + (56 - 53) * (100vw - 1024px) / (1280 - 1024));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: calc(769px + 159 * (100vw - 769px) / (1024 - 769));
-    padding-top: calc(50px + 3 * (100vw - 769px) / (1024 - 769));
+    width: calc(100% - 48px * 2);
+    padding-top: calc(50px + (53 - 50) * (100vw - 768px) / (1024 - 768));
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
-    padding-top: calc(48px + 2 * (100vw - 321px) / (768 - 321));
+    padding-top: calc(48px + (50 - 48) * (100vw - 320px) / (768 - 320));
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    padding-top: calc(48 / 320 * 100vw);
+    padding-top: 48px;
   }
 }

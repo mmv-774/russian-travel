@@ -1,6 +1,5 @@
 .places__places-list {
   max-width: 984px;
-  width: 100%;
   display: grid;
   grid-template-rows: auto;
   grid-row-gap: 80px;

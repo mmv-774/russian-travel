@@ -1,6 +1,5 @@
 .place {
   max-width: 984px;
-  width: 100%;
   display: grid;
   grid-gap: 48px 40px;
   /* prettier-ignore */

@@ -1,0 +1,22 @@
+.places__places-list {
+  max-width: 984px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 80px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__places-list {
+    grid-row-gap: calc(73px + (80 - 73) * (100vw - 768px) / (1024 - 768));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__places-list {
+    grid-row-gap: calc(50px + (73 - 50) * (100vw - 320px) / (768 - 320));
+  }
+}

@@ -1,5 +1,6 @@
 .lead {
   max-width: 984px;
+  width: 100%;
   padding: 56px 0 0;
   box-sizing: border-box;
   display: flex;
@@ -9,6 +10,8 @@
 
 @media screen and (max-width: 1280px) {
   .lead {
+    width: calc(100% - 148px * 2);
+    min-width: 928px;
     padding-top: calc(53px + (56 - 53) * (100vw - 1024px) / (1280 - 1024));
   }
 }
@@ -16,6 +19,7 @@
 @media screen and (max-width: 1024px) {
   .lead {
     width: calc(100% - 48px * 2);
+    min-width: 720px;
     padding-top: calc(50px + (53 - 50) * (100vw - 768px) / (1024 - 768));
   }
 }
@@ -23,6 +27,7 @@
 @media screen and (max-width: 768px) {
   .lead {
     width: 100%;
+    min-width: 0;
     padding-top: calc(48px + (50 - 48) * (100vw - 320px) / (768 - 320));
   }
 }

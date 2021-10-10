@@ -1,12 +1,8 @@
 .header__lang-links {
   margin: 0;
-  padding: 18px 0 6px;
+  padding: 0;
   list-style: none;
-  display: flex;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-links {
-    padding: 14px 0 8px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 18px;
 }

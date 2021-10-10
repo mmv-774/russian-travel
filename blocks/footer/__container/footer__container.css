@@ -1,0 +1,16 @@
+.footer__container {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+  align-items: end;
+  justify-items: end;
+}
+
+@media screen and (max-width: 720px) {
+  .footer__container {
+    max-width: 186px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 48px;
+    justify-items: start;
+  }
+}

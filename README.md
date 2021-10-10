@@ -18,5 +18,5 @@
 * Реализовать смену языков
 
 ## Ссылки
-* [Сайт на GitHub Pages](https://mmv-774.github.io/russian-travel/)
-* [Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0)
+* <a href="https://mmv-774.github.io/russian-travel/" target="_blank">Сайт на GitHub Pages</a>
+* <a href="https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile" target="_blank">Макет в Figma</a>

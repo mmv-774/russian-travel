@@ -10,7 +10,7 @@
 @media screen and (max-width: 1280px) {
   .lead {
     max-width: calc(100% - 148px * 2);
-    min-width: 928px;
+    min-width: calc(928px - (100vw - 100%));
     padding-top: calc(53px + (56 - 53) * (100vw - 1024px) / (1280 - 1024));
   }
 }
@@ -18,7 +18,7 @@
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: calc(100% - 48px * 2);
-    min-width: 720px;
+    min-width: calc(768px - (100vw - 100%));
     padding-top: calc(50px + (53 - 50) * (100vw - 768px) / (1024 - 768));
   }
 }
